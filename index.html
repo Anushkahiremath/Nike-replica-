@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nike(replica) Premium Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="top-bar">
+  Free delivery on orders above ₹4,999 — Join Membership for rewards.
+</header>
+
+<nav class="main-nav">
+  <div class="nav-left">
+    <span class="brand">nike(replica)</span>
+  </div>
+
+  <div class="nav-center">
+    <a href="#hero" class="nav-link">Home</a>
+    <a href="#categories" class="nav-link">Categories</a>
+    <a href="#products" class="nav-link">Products</a>
+    <a href="#membership" class="nav-link">Membership</a>
+  </div>
+
+  <div class="nav-right">
+    <span id="userGreeting" class="user-greeting"></span>
+    <button class="nav-icon-btn" id="loginBtn">Login</button>
+    <button class="nav-icon-btn" id="signupBtn">Signup</button>
+    <button class="nav-icon-btn" id="cartBtn">
+      Cart (<span id="cartCount">0</span>)
+    </button>
+  </div>
+</nav>
+
+<section class="hero" id="hero">
+
+  <!-- SVG NIKE LOGO -->
+  <div class="hero-nike-logo">
+    <svg class="pre-logo-svg" height="50px" width="65px" fill="#111" viewBox="0 0 69 32">
+      <path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path>
+    </svg>
+  </div>
+
+  <div class="hero-left">
+    <h1 class="hero-title">MOVE LIKE NEVER BEFORE</h1>
+    <p class="hero-subtitle">
+      Precision-engineered cushioning. Lightweight design. Built for athletes — perfect for everyone.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#products" class="btn btn-dark">Shop Collection</a>
+      <a href="#membership" class="btn btn-light">Join Now</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <img src="images/hero-main.avif" class="hero-shoe" alt="Premium Shoe">
+    <div class="hero-glow"></div>
+  </div>
+
+</section>
+
+<section class="category-strip" id="categories">
+  <h2 class="section-title">Shop By Category</h2>
+  <div class="category-grid">
+
+    <div class="category-card">
+      <img src="images/category-running.jpg" alt="">
+      <div class="category-overlay"><span>Running</span></div>
+    </div>
+
+    <div class="category-card">
+      <img src="images/category-gym.jpg" alt="">
+      <div class="category-overlay"><span>Gym / Training</span></div>
+    </div>
+
+    <div class="category-card">
+      <img src="images/category-football.jpg" alt="">
+      <div class="category-overlay"><span>Football</span></div>
+    </div>
+
+    <div class="category-card">
+      <img src="images/category-basketball.jpg" alt="">
+      <div class="category-overlay"><span>Basketball</span></div>
+    </div>
+
+    <div class="category-card">
+      <img src="images/category-lifestyle.jpg" alt="">
+      <div class="category-overlay"><span>Lifestyle</span></div>
+    </div>
+
+    <div class="category-card">
+      <img src="images/category-women.jpg" alt="">
+      <div class="category-overlay"><span>Women</span></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PRODUCTS SECTION -->
+<section class="products" id="products">
+  <div class="section-header">
+    <h2 class="section-title">All Products</h2>
+    <p class="section-subtitle">Explore 20+ Premium Shoes</p>
+  </div>
+
+  <div class="product-grid">
+
+    <!-- 20 PRODUCTS -->
+    <!-- Running -->
+    <article class="product-card" data-id="1" data-name="Air Runner" data-price="8495">
+      <img src="images/product1.jpg" class="product-img" alt="">
+      <p class="product-tag">Running</p>
+      <h3 class="product-name">Air Runner</h3>
+      <p class="product-price">₹8,495</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="2" data-name="Velocity Fly" data-price="9495">
+      <img src="images/product2.jpg" class="product-img" alt="">
+      <p class="product-tag">Running</p>
+      <h3 class="product-name">Velocity Fly</h3>
+      <p class="product-price">₹9,495</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="3" data-name="Road Blaze" data-price="7995">
+      <img src="images/product3.jpg" class="product-img" alt="">
+      <p class="product-tag">Running</p>
+      <h3 class="product-name">Road Blaze</h3>
+      <p class="product-price">₹7,995</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="4" data-name="Night Sprint" data-price="9995">
+      <img src="images/product4.jpg" class="product-img" alt="">
+      <p class="product-tag">Running</p>
+      <h3 class="product-name">Night Sprint</h3>
+      <p class="product-price">₹9,995</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <!-- Lifestyle -->
+    <article class="product-card" data-id="5" data-name="Street Classic" data-price="6995">
+      <img src="images/product5.jpg" class="product-img" alt="">
+      <p class="product-tag">Lifestyle</p>
+      <h3 class="product-name">Street Classic</h3>
+      <p class="product-price">₹6,995</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="6" data-name="Urban Flex" data-price="7495">
+      <img src="images/product6.jpg" class="product-img" alt="">
+      <p class="product-tag">Lifestyle</p>
+      <h3 class="product-name">Urban Flex</h3>
+      <p class="product-price">₹7,495</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="7" data-name="Everyday Low" data-price="5995">
+      <img src="images/product7.jpg" class="product-img" alt="">
+      <p class="product-tag">Lifestyle</p>
+      <h3 class="product-name">Everyday Low</h3>
+      <p class="product-price">₹5,995</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="8" data-name="Court Icon" data-price="8295">
+      <img src="images/product8.jpg" class="product-img" alt="">
+      <p class="product-tag">Lifestyle</p>
+      <h3 class="product-name">Court Icon</h3>
+      <p class="product-price">₹8,295</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <!-- Training -->
+    <article class="product-card" data-id="9" data-name="Power Trainer" data-price="6495">
+      <img src="images/product9.jpg" class="product-img" alt="">
+      <p class="product-tag">Training</p>
+      <h3 class="product-name">Power Trainer</h3>
+      <p class="product-price">₹6,495</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="10" data-name="Gym Pro" data-price="6995">
+      <img src="images/product10.jpg" class="product-img" alt="">
+      <p class="product-tag">Training</p>
+      <h3 class="product-name">Gym Pro</h3>
+      <p class="product-price">₹6,995</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="11" data-name="Core Lift" data-price="7295">
+      <img src="images/product11.jpg" class="product-img" alt="">
+      <p class="product-tag">Training</p>
+      <h3 class="product-name">Core Lift</h3>
+      <p class="product-price">₹7,295</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="12" data-name="Studio Fit" data-price="6195">
+      <img src="images/product12.jpg" class="product-img" alt="">
+      <p class="product-tag">Training</p>
+      <h3 class="product-name">Studio Fit</h3>
+      <p class="product-price">₹6,195</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <!-- Football -->
+    <article class="product-card" data-id="13" data-name="Strike Pro" data-price="10495">
+      <img src="images/product13.jpg" class="product-img" alt="">
+      <p class="product-tag">Football</p>
+      <h3 class="product-name">Strike Pro</h3>
+      <p class="product-price">₹10,495</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="14" data-name="Phantom Pace" data-price="9995">
+      <img src="images/product14.jpg" class="product-img" alt="">
+      <p class="product-tag">Football</p>
+      <h3 class="product-name">Phantom Pace</h3>
+      <p class="product-price">₹9,995</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="15" data-name="Legend Turf" data-price="8995">
+      <img src="images/product15.jpg" class="product-img" alt="">
+      <p class="product-tag">Football</p>
+      <h3 class="product-name">Legend Turf</h3>
+      <p class="product-price">₹8,995</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <!-- Basketball -->
+    <article class="product-card" data-id="16" data-name="Sky Dunk High" data-price="9495">
+      <img src="images/product16.jpg" class="product-img" alt="">
+      <p class="product-tag">Basketball</p>
+      <h3 class="product-name">Sky Dunk High</h3>
+      <p class="product-price">₹9,495</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="17" data-name="Court Bounce" data-price="8795">
+      <img src="images/product17.jpg" class="product-img" alt="">
+      <p class="product-tag">Basketball</p>
+      <h3 class="product-name">Court Bounce</h3>
+      <p class="product-price">₹8,795</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <!-- Women -->
+    <article class="product-card" data-id="18" data-name="Breeze Run" data-price="7595">
+      <img src="images/product18.jpg" class="product-img" alt="">
+      <p class="product-tag">Women</p>
+      <h3 class="product-name">Breeze Run</h3>
+      <p class="product-price">₹7,595</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="19" data-name="Flow Street" data-price="6995">
+      <img src="images/product19.jpg" class="product-img" alt="">
+      <p class="product-tag">Women</p>
+      <h3 class="product-name">Flow Street</h3>
+      <p class="product-price">₹6,995</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+    <article class="product-card" data-id="20" data-name="Studio Cloud" data-price="8295">
+      <img src="images/product20.jpg" class="product-img" alt="">
+      <p class="product-tag">Women</p>
+      <h3 class="product-name">Studio Cloud</h3>
+      <p class="product-price">₹8,295</p>
+      <button class="btn btn-outline add-to-cart">Add to Cart</button>
+    </article>
+
+  </div>
+</section>
+
+<section class="promo" id="membership">
+  <div class="promo-content">
+    <p class="promo-tag">MEMBERSHIP</p>
+    <h2>More Access. More Rewards.</h2>
+    <p>Join nike(replica) Membership for early access and exclusive benefits.</p>
+    <button class="btn btn-dark" id="promoJoinBtn">Join for Free</button>
+  </div>
+</section>
+
+<section class="cart-panel" id="cartPanel">
+  <div class="cart-header">
+    <h2>Your Cart</h2>
+    <button id="closeCart" class="close-btn">×</button>
+  </div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-footer">
+    <p>Total: ₹<span id="cartTotal">0</span></p>
+    <button class="btn btn-dark" id="checkoutBtn">Checkout</button>
+  </div>
+</section>
+
+<div class="modal-overlay" id="modalOverlay"></div>
+
+<div class="modal" id="loginModal">
+  <h2>Login</h2>
+  <form id="loginForm">
+    <label>Email</label>
+    <input type="email" id="loginEmail" required>
+    <label>Password</label>
+    <input type="password" id="loginPassword" required>
+    <button class="btn btn-dark">Login</button>
+  </form>
+  <p class="modal-switch">Don't have an account? <span id="switchToSignup">Signup</span></p>
+</div>
+
+<div class="modal" id="signupModal">
+  <h2>Signup</h2>
+  <form id="signupForm">
+    <label>Name</label>
+    <input type="text" id="signupName" required>
+    <label>Email</label>
+    <input type="email" id="signupEmail" required>
+    <label>Password</label>
+    <input type="password" id="signupPassword" required>
+    <button class="btn btn-dark">Create Account</button>
+  </form>
+  <p class="modal-switch">Already have an account? <span id="switchToLogin">Login</span></p>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<footer class="site-footer">
+  <p>© 2025 nike(replica) — Educational Replica Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
