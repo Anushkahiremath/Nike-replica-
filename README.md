@@ -46,20 +46,4 @@ NikeReplica is a modern and responsive sneaker e-commerce website inspired by pr
 
 ---
 
-## Project Structure
 
-```bash
-NikeReplica/
-│
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── animations/
-│   ├── assets/
-│   ├── styles/
-│   └── App.jsx
-│
-├── package.json
-├── vite.config.js
-└── README.md
